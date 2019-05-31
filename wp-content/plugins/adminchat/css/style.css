@@ -1,0 +1,243 @@
+.chat{
+    position: fixed;
+    top: 50%;
+    right: 1%;
+    z-index: 100;
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    border-radius:5px 5px 5px 5px;
+    display: block;
+}
+.none
+{
+    display: none;
+}
+.chat>form
+{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid #ffffff;
+}
+
+.chat>form>textarea
+{
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 0px;
+    color: #676767 !important;
+}
+.chat>form>input
+{
+    width: 70px;
+    font-size: 10px;
+    padding: 5px;
+    background-color: #0eb5d6 !important;
+    color: white !important;
+    cursor: pointer;
+}
+.head_chat
+{
+    background-color: #0eb5d6;
+    height: 70px;
+    border-radius:5px 5px 0px 0px;
+    border-bottom: 1px solid #fff;
+}
+.head_chat>img
+{
+    width: 59px;
+    border-radius: 35px;
+    margin: 10px;
+}
+.namechat{
+    position: relative;
+    top:-45px;
+    font-size: 16px;
+}
+.statuschat
+{
+    position: relative;
+    top:-25px;
+    font-size: 11px;
+    left: -90px;
+}
+.closechat
+{
+    position: relative;
+    top: -55px;
+    font-size: 12px;
+    left: 25px;
+    cursor: pointer;
+
+}
+.messageuser,.messageadmin
+{
+    display: flex;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.messageuser>span:last-child
+{
+background-color: #0eb5d6;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: right;
+    width: 80%;
+}
+.messageadmin>span:last-child
+{
+    padding: 5px;
+    border-radius: 5px;
+    color: #a5a5a5;
+}
+.messageuser>span:first-child
+{
+    padding: 5px;
+    border-radius: 5px;
+    color: #a5a5a5;
+}
+.messageadmin>span:first-child
+{
+    background-color: #3cb868;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: left;
+    width: 80%;
+}
+
+.chatbody
+{
+    height: 232px;
+    padding: 10px;
+    overflow: auto;
+}
+.blogchat
+{
+    padding: 10px;
+    background-color: white;
+    margin-right: 15px;
+}
+.zagolovokosn{
+    background-color: #3cb868;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+.messagechat
+{
+    color: white;
+}
+.chatadmin
+{
+    display: flex;
+    background-color: white;
+    margin-right: 15px;
+    padding: 10px;
+}
+.users
+{
+    width: 10%;
+}
+.users>ul
+{
+    height: 300px;
+    overflow: auto;
+    list-style-type: none;
+    padding-right: 10px;
+}
+.users>ul>li
+{
+    background-color: #0eb5d6;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.chatadminform
+{
+    width: 90%;
+    height: 300px;
+    overflow: auto;
+    margin-left: 20px;
+
+}
+.users>ul::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #aaa; /* or add it to the track */
+}
+/* Add a thumb */
+.users>ul::-webkit-scrollbar-thumb {
+    background: #3cb868;
+}
+.chatadminform::-webkit-scrollbar
+{
+    width: 5px;
+    height: 8px;
+    background-color: #aaa; /* or add it to the track */
+}
+.chatadminform::-webkit-scrollbar-thumb {
+    background: #3cb868;
+}
+.chatadminform{
+    padding: 10px;
+    overflow-x: hidden;
+}
+.paddingbot15{
+    margin-bottom: 15px;
+}
+.login
+{
+    font-size: 25px;
+    text-align: right;
+    color: #0eb5d6;
+}
+.formaadmin>form
+{
+    display: flex;
+    width: 100%;
+}
+.formaadmin>form>textarea
+{
+    width: 90%;
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 0px;
+    color: #676767 !important;
+    padding: 10px;
+
+}
+.formaadmin>form>input
+{
+    width: 9.1%;
+    background-color: #3cb868;
+    color: white;
+    font-weight: bold;
+    border: 0px solid red;
+    cursor: pointer;
+}
+
+.chatcole{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    top: 85%;
+    right: 1%;
+    z-index: 99;
+    background-color: #3cb868;
+    border-radius:50%;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+.chatcole>span{
+    position: relative;
+    font-size: 20px;
+    top: 5px;
+
+}
