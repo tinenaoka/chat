@@ -105,7 +105,7 @@ global $mysqli;
     <div class="chat">
         <div class="head_chat">
             <img src="http://chat/wp-content/plugins/adminchat/images/images.jpg" alt="" class="avatarchat">
-            <span class="namechat">Сергей</span>
+            <span class="namechat">Сергей чат</span>
             <span class="statuschat">Online</span>
             <span class="closechat" onclick="closetab()">X</span>
         </div>
